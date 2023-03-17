@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap");
+body {
+  background-color: #F8EDE3;
+  font-family: "Albert Sans", sans-serif;
+}
+body .wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .wrapper .wrapper__card {
+  border-radius: 20px;
+  padding: 10px;
+  height: 300px;
+  width: 600px;
+  background-color: #7D6E83;
+}
+body .wrapper .wrapper__card .card__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10%;
+  color: #F8EDE3;
+  margin-bottom: 10px;
+}
+body .wrapper .wrapper__card .card__form {
+  margin-bottom: 10px;
+}
+body .wrapper .wrapper__card .card__form .form__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .wrapper .wrapper__card .card__form .form__info .form__input-text {
+  color: #F8EDE3;
+  margin-right: 10px;
+}
+body .wrapper .wrapper__card .card__form .form__info .form__input {
+  margin-right: 10px;
+  font-family: "Albert Sans", sans-serif;
+  color: #F8EDE3;
+  border: 2px solid #F8EDE3;
+  padding: 1px 5px;
+  border-radius: 10px;
+}
+body .wrapper .wrapper__card .card__form .form__info .form__input:hover {
+  cursor: pointer;
+}
+body .wrapper .wrapper__card .card__form .form__info button {
+  color: #7D6E83;
+  background-color: #F8EDE3;
+  border-radius: 10px;
+  border: none;
+  padding: 2px 20px;
+}
+body .wrapper .wrapper__card .card__form .form__info button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.input-invalid {
+  border: 2px solid #E96479 !important;
+}
+
+.invalid-msg,
+.no-repo {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.invalid-msg p,
+.no-repo p {
+  background-color: #E96479;
+  color: #7D6E83;
+  padding: 1px 5px;
+  border-radius: 10px;
+}
